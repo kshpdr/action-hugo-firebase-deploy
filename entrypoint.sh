@@ -9,6 +9,7 @@ ALIAS=${2:-alias}
 HUGO_PARAMS=${3:-hugo-params}
 
 # Build the Hugo site.
+cd hugo
 hugo $HUGO_PARAMS
 
 # Publish to Google Firebase.
